@@ -4,9 +4,12 @@ import App from './App.jsx'
 import './index.css'
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import 'primeicons/primeicons.css';
+import { BrowserRouter } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </StrictMode>,
 )

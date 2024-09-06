@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import { Button } from 'primereact/button';
-import NavBar from './components/NavBar';
+import { Route, Routes } from 'react-router-dom';
+import Inicio from './pages/Inicio';
 
 function App() {
   return (
-    <main>
-      <NavBar/>
-    </main>
+    <Routes>
+      <Route path='/' element={<Inicio />} />
+    </Routes>
   )
 }
 
