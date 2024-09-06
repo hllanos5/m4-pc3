@@ -1,0 +1,38 @@
+main{
+  padding-left: 2rem;
+  background-image:  url(../public/assets/home/background-home-desktop.jpg);
+  height: 97vh;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+
+    .parte-izquierda {
+      display: flex;
+      align-items: center;
+      .linea {
+        border: 1px groove gray;
+        width: 40rem;
+        margin-left: 12rem;
+      }      
+    }
+        
+    .parte-derecha {
+      height: 75%;  
+      .p-menubar {
+        background: none;
+        backdrop-filter: blur(2rem);
+        border: none; 
+        height: 100%;
+        .p-menuitem-text{
+          color:white
+        }
+      }
+      .p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover{
+        background: none;
+      }
+    }
+    
+  }
+}
