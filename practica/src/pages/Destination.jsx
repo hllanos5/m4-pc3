@@ -1,10 +1,13 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 
-export default function Inicio() {
+export default function Destination() {
   return (
     <main>
         <NavBar/>
+        <div>
+          Destination
+        </div>
     </main>
   )
 }

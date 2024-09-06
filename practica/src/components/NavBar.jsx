@@ -6,16 +6,20 @@ export default function NavBar() {
 
     const items = [
         {
-            label: '00 HOME'
+            label: '00 HOME',
+            url: '/'
         },
         {
-            label: '01 DESTINATION'
+            label: '01 DESTINATION',
+            url: '/destination'
         },
         {
             label: '02 CREW',
+            url: '/crew'
         },
         {
             label: '03 TECHNOLOGY',
+            url: '/technology'
         }
     ];
 
