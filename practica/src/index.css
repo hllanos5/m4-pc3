@@ -17,7 +17,7 @@ main{
         margin-left: 12rem;
       }      
     }
-        
+
     .parte-derecha {
       height: 75%;  
       .p-menubar {
@@ -34,5 +34,44 @@ main{
       }
     }
     
+  }
+  .contenido{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
+    gap: 2rem;
+    div {
+      height: 80vh;
+      gap:1rem
+    }
+    .lado-izquierdo{
+      display: flex;
+      flex-direction: column;
+      place-content: center;
+      
+      h1 {
+        font-size: 5rem;
+        font-weight: 500;
+      }
+      p{
+        font-size: 0.8rem;
+      }
+    }
+    .lado-derecho {
+      display: flex;
+      place-content: center;
+      align-items: center;
+      .explorer {
+        background: white;
+        border-radius: 50%;
+        width: 12rem;
+        height: 12rem;
+        text-align: center;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
 }
