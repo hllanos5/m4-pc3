@@ -72,6 +72,22 @@ main{
         align-items: center;
         justify-content: center;
       }
+      li{
+        background: transparent;
+      }
+      .p-tabmenu .p-tabmenu-nav{
+        background: transparent;
+      }
+      .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link  {
+        background: transparent;
+        color: white;
+        border-color: transparent;
+      }
+      .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+         background: transparent; 
+         border-color: white;
+         color: white;  
+      }
     }
   }
 }
